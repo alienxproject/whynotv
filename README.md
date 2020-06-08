@@ -1,5 +1,7 @@
 # BrowserTV
-Ermoglicht es im Browser live TV zu schauen.
+Ermöglicht es im Browser live TV zu schauen.
+
+Demo: http://browsertv.ml/
 
 ## Credits
 Sender Liste und Sender Logos von: https://github.com/jnk22/kodinerds-iptv
