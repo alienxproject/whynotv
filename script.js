@@ -8,7 +8,7 @@ function load_m3u8(t) {
     } else e.canPlayType("application/vnd.apple.mpegurl") && (e.src = t, e.addEventListener("canplay", function() {
         e.play()
     }));
-    document.getElementById("text").style.display = "none", document.getElementById("video").style.display = "block"
+    $("#text").hide(), $("#video").show()
 }
 
 function ajax_process_m3u8(t) {
