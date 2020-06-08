@@ -25,16 +25,14 @@ function ajax_process_m3u8(t) {
                     if (-1 !== o.indexOf("#EXTINF")) var i = o.match(/^#EXTINF:.*?tvg-name="(.*?)".*?tvg-logo="(.*?)".*?/is),
                         l = i[1],
                         d = i[2];
-                    else AddStation(l, o, d), 0
+                    else add_station(l, o, d), 0
                 }
-            },
-            error: function(t, e, n) {},
-            complete: function(t) {}
+            }
         })
     }
 }
 
-function AddStation(t, e, n) {
+function add_station(t, e, n) {
     d = document.createElement("div"), $(d).addClass("station").html('<img src="' + n + '" alt="' + t + '" width="128">').appendTo($("#stations")).click(function() {
         load_m3u8(e)
     })
