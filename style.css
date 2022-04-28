@@ -39,6 +39,9 @@ div.station {
     text-align: center;
     cursor: pointer;
 }
+div.station img{
+    max-height: 100px;
+}
 ::-webkit-scrollbar {
   width: 20px;
 }
