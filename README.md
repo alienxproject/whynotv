@@ -1,7 +1,7 @@
 # BrowserTV
-Ermöglicht es im Browser live TV zu schauen.
+ Browser live TV whynotv
 
-Demo: https://tas2580.github.io/BrowserTV/
+Demo: https://alienxproject.github.io/whynotv/
 
 ## Credits
 Sender Liste und Sender Logos von: https://github.com/jnk22/kodinerds-iptv
